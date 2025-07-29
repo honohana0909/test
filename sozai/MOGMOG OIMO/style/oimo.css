@@ -1,0 +1,128 @@
+@charset "UTF-8";
+div,#wrap{
+    width: 100%;
+    margin:0 auto;
+}
+/*　マテリアルスイーツ */
+body{
+    font-family: "Yu Gothic",YuGoothic,"MS　Pゴシック",Meiryo;
+    font-size:;
+    background-color:#fcf5e6;
+    background-image:url(../sozai/masume1.png);
+    background-repeat: repeat;
+    background-size: 100%;
+}
+/* リセットCSS */
+h1,h2,h3,h4,p,ul,li{
+    margin:0;
+    padding:0;
+}
+/*　ヘッダーCSS　*/
+header{
+    width:100%;
+    overflow:hidden;
+}
+#logo{
+    display:block;
+    width:25%;
+    height:auto;
+    
+}
+/*ボディー*/
+body{
+    width:100%
+}
+h1{
+    text-align: center;
+    font-size: 350%;
+    clear: both;
+}
+h2{
+    font-size: 200%;
+}
+p{
+    font-size: 150%;
+}
+/*　ナビゲーション　CSS　*/
+nav{
+    margin-top:20px;
+}
+nav ul{list-style-type:none;}
+nav li{
+    width: 20%;
+    height:60px;
+    float:left;
+}
+nav a{
+    display:block;
+    line-height:auto;
+    text-align: center;
+    color:darkred;
+    text-decoration:none;
+    background-image:url(#);
+    font-size: 150%;
+    font-weight: 600;
+}
+nav a:hover{
+    color:crimson;
+    font-weight: bold;
+    background-image: url(#);
+}
+/*ころころ*/
+#korokoro{
+    width:100%;
+    margin-top: -6%;
+    margin-bottom: -5%;
+}
+/*メイン*/
+main{
+    width:100%;
+}
+#top{
+    width:100%;
+    height:auto;
+}
+#content1 p{
+    text-align: center;    
+}
+#miryoku p{
+    clear: both;
+    text-align: left;
+    float: left;
+    font-size: 120%;
+}
+#topic{clear:both;}
+.T {
+    font-size: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width:40%;
+    float:left;
+}
+.T p{
+    font-size: 120%
+}
+.more a{
+    font-size: 80%;
+    margin-right: 3%;
+    float: right;
+    background-color: #ffe567;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.more a:hover{
+    background-color: #ffbb67;
+}
+.icon{
+    width: 100%;
+}
+.icon:hover{
+    background-image: url(../sozai/icon_zukan_hover.png);
+    background-size: 100%;
+}
+@media screen and (min-width:1000px){
+    div,#wrap{
+        width: 1000px;
+        font-size: 150%;
+    }
+}

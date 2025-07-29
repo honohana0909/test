@@ -1,0 +1,133 @@
+@charset "UTF-8";
+div,#wrap{
+    width: 100%;
+    margin:0 auto;
+}
+/*　マテリアルスイーツ */
+body{
+    font-family: "Yu Gothic",YuGoothic,"MS　Pゴシック",Meiryo;
+    font-size:100% ;
+    background-color:#fcf5e6;
+    background-image: url(../sozai/border.png);
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+/* リセット:*/
+h1,h2,h3,h4,p,ul,li{
+    margin:0;
+    padding:0;
+}
+/*　ヘッダーCSS　*/
+header{
+    
+}
+#logo{
+    display:block;
+    width:25%;
+    height:auto;
+    
+}
+/*ヘッダーのナビゲーション*/
+#top{
+    width: 100%;
+    margin-top: -10%;
+}
+#daimei{
+    font-size: 500%;
+    color: #000000;
+}
+#question{
+    clear: both;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url(../sozai/marubatu_n.png);
+    background-size: 50%;
+    height: 50%;
+    background-position: center;
+    background-repeat: repeat-x;
+}
+/*ボディー*/
+body{
+    width:100%;
+    clear: both;
+}
+h1{
+    text-align: center;
+    font-size:280%;
+}
+h2{
+    font-size: 200%;
+}
+h3{
+    clear: both;
+    display: block;
+}
+p{
+    font-size: 3vw;
+}
+/*　ナビゲーション　CSS　*/
+nav{
+    margin-top:20px;
+}
+nav ul{
+    list-style-type:none;
+}
+nav li{
+    width: 25%;
+    height:60px;
+    float:left;
+    margin-bottom: 20px;
+}
+nav a{
+    display:flex;
+    line-height:auto;
+    text-align: center;
+    color:darkred;
+    text-decoration:none;
+    background-image:url(#);
+    font-size: 180%;
+    font-weight: 600;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+}
+nav a:hover{
+    color:crimson;
+    font-weight: bold;
+    background-image: url(#);
+}
+/*メイン*/
+main{
+    width:100%;
+}
+#daimei{
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-size: 140%;
+    }
+#matching{
+    background-color: #fcf5e6;
+}
+#sabu{
+    text-align: center;
+    font-size: 100%;
+    margin-bottom: 5%;
+    background-color: #fcf5e6;
+}
+#try{
+    padding-top: 5%;
+    
+}
+#try_a{
+    text-decoration-style: dashed;
+    color: #7622A0;
+}
+#try_a:hover{
+    color: #ffd168;
+}
+@media screen and (min-width:1000px){
+    div,#wrap{
+        width: 1000px;
+        font-size: 150%;
+    }
+}
